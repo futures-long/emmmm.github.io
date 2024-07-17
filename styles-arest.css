@@ -1,0 +1,115 @@
+@keyframes WTF {
+  0% {
+    filter: blur(0px);
+    transform: rotate(0deg);
+    width: 100%;
+  }
+  30% {
+    filter: blur(10px);
+  }
+  50% {
+    filter: blur(3px);
+    width: 10%;
+  }
+  70% {
+    filter: blur(20px);
+  }
+  100% {
+    filter: blur(0px);
+    transform: rotate(360deg);
+    width: 100%;
+  }
+}
+
+@keyframes WTF2 {
+
+}
+
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: center;
+  z-index: 0;
+  background-color: #000;
+  animation: WTF 1s linear infinite;
+}
+
+h1 {
+  position: relative;
+  font-size: 13vw;
+  top: -6vw;
+}
+
+#head {
+  height: 8vw;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  font-size: 5vw;
+  padding: 1vw;
+  border-top: solid 1.5px rgba(255, 255, 255, 0.3);
+  border-bottom: solid 1.5px rgba(255, 255, 255, 0.3);
+}
+
+.menu a {
+  text-decoration-line: none;
+  color: #f00;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  width: 4vw;
+  text-align: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-left: solid 1.5px rgba(255, 255, 255, 0.3);
+  border-right: solid 1.5px rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#main {
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+h3 {
+  font-size: 3.5vw;
+}
+
+.product2 {
+  display: flex;
+}
+
+.products1, .products2 {
+  padding: 3vw;
+  margin: 3vw;
+  background-color: #333;
+  width: 40vw;
+  text-align: center;
+}
+
+#button {
+  color: #fff;
+  font-size: 4vw;
+  text-decoration-line: none;
+  background-color: #000;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+img {
+  width: 37vw;
+  height: auto;
+}
